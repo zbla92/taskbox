@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Task Archived 1`] = `
+exports[`Storyshots Task archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
 >
@@ -22,7 +22,7 @@ exports[`Storyshots Task Archived 1`] = `
     className="title"
   >
     <input
-      placeholder="input title"
+      placeholder="Input title"
       readOnly={true}
       type="text"
       value="Test Task"
@@ -35,7 +35,7 @@ exports[`Storyshots Task Archived 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Default 1`] = `
+exports[`Storyshots Task default 1`] = `
 <div
   className="list-item TASK_INBOX"
 >
@@ -57,7 +57,7 @@ exports[`Storyshots Task Default 1`] = `
     className="title"
   >
     <input
-      placeholder="input title"
+      placeholder="Input title"
       readOnly={true}
       type="text"
       value="Test Task"
@@ -78,7 +78,7 @@ exports[`Storyshots Task Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Pinned 1`] = `
+exports[`Storyshots Task pinned 1`] = `
 <div
   className="list-item TASK_PINNED"
 >
@@ -100,7 +100,7 @@ exports[`Storyshots Task Pinned 1`] = `
     className="title"
   >
     <input
-      placeholder="input title"
+      placeholder="Input title"
       readOnly={true}
       type="text"
       value="Test Task"
@@ -121,11 +121,11 @@ exports[`Storyshots Task Pinned 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaslList Default 1`] = `
+exports[`Storyshots TaskList Default 1`] = `
 <div
   style={
     Object {
-      "padding": "3em",
+      "padding": "3rem",
     }
   }
 >
@@ -133,7 +133,7 @@ exports[`Storyshots TaslList Default 1`] = `
     className="list-items"
   >
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -153,7 +153,7 @@ exports[`Storyshots TaslList Default 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 1"
@@ -173,7 +173,7 @@ exports[`Storyshots TaslList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -193,7 +193,7 @@ exports[`Storyshots TaslList Default 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 2"
@@ -213,7 +213,7 @@ exports[`Storyshots TaslList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -233,7 +233,7 @@ exports[`Storyshots TaslList Default 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 3"
@@ -253,7 +253,7 @@ exports[`Storyshots TaslList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -273,7 +273,7 @@ exports[`Storyshots TaslList Default 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 4"
@@ -293,7 +293,7 @@ exports[`Storyshots TaslList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -313,7 +313,7 @@ exports[`Storyshots TaslList Default 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 5"
@@ -333,7 +333,7 @@ exports[`Storyshots TaslList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -353,7 +353,7 @@ exports[`Storyshots TaslList Default 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 6"
@@ -376,11 +376,11 @@ exports[`Storyshots TaslList Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaslList Empty 1`] = `
+exports[`Storyshots TaskList Empty 1`] = `
 <div
   style={
     Object {
-      "padding": "3em",
+      "padding": "3rem",
     }
   }
 >
@@ -408,11 +408,11 @@ exports[`Storyshots TaslList Empty 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaslList Loading 1`] = `
+exports[`Storyshots TaskList Loading 1`] = `
 <div
   style={
     Object {
-      "padding": "3em",
+      "padding": "3rem",
     }
   }
 >
@@ -429,7 +429,7 @@ exports[`Storyshots TaslList Loading 1`] = `
         className="glow-text"
       >
         <span>
-          Loadng
+          Loading
         </span>
          
         <span>
@@ -451,7 +451,7 @@ exports[`Storyshots TaslList Loading 1`] = `
         className="glow-text"
       >
         <span>
-          Loadng
+          Loading
         </span>
          
         <span>
@@ -473,7 +473,7 @@ exports[`Storyshots TaslList Loading 1`] = `
         className="glow-text"
       >
         <span>
-          Loadng
+          Loading
         </span>
          
         <span>
@@ -495,7 +495,7 @@ exports[`Storyshots TaslList Loading 1`] = `
         className="glow-text"
       >
         <span>
-          Loadng
+          Loading
         </span>
          
         <span>
@@ -517,7 +517,7 @@ exports[`Storyshots TaslList Loading 1`] = `
         className="glow-text"
       >
         <span>
-          Loadng
+          Loading
         </span>
          
         <span>
@@ -539,7 +539,7 @@ exports[`Storyshots TaslList Loading 1`] = `
         className="glow-text"
       >
         <span>
-          Loadng
+          Loading
         </span>
          
         <span>
@@ -555,11 +555,11 @@ exports[`Storyshots TaslList Loading 1`] = `
 </div>
 `;
 
-exports[`Storyshots TaslList With Pinned Tasks 1`] = `
+exports[`Storyshots TaskList With Pinned Tasks 1`] = `
 <div
   style={
     Object {
-      "padding": "3em",
+      "padding": "3rem",
     }
   }
 >
@@ -587,7 +587,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 6 (pinned)"
@@ -607,7 +607,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -627,7 +627,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 1"
@@ -647,7 +647,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -667,7 +667,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 2"
@@ -687,7 +687,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -707,7 +707,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 3"
@@ -727,7 +727,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -747,7 +747,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 4"
@@ -767,7 +767,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
       </div>
     </div>
     <div
-      className="list-item TASK_INBOX"
+      className="list-item undefined"
     >
       <label
         className="checkbox"
@@ -787,7 +787,7 @@ exports[`Storyshots TaslList With Pinned Tasks 1`] = `
         className="title"
       >
         <input
-          placeholder="input title"
+          placeholder="Input title"
           readOnly={true}
           type="text"
           value="Task 5"

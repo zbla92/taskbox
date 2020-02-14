@@ -22,13 +22,14 @@ export default function Task({
           type='text'
           value={title}
           readOnly={true}
-          placeholder='input title'
+          placeholder='Input title'
         />
       </div>
+
       <div className='actions' onClick={event => event.stopPropagation()}>
         {state !== 'TASK_ARCHIVED' && (
           <a onClick={() => onPinTask(id)}>
-            <span className={'icon-star'} />
+            <span className={`icon-star`} />
           </a>
         )}
       </div>
